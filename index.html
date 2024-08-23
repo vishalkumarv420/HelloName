@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Kumar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Website</h1>
+        <nav>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                &#9776; <!-- Unicode character for hamburger icon -->
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi, I'm Vishal Kumar, a passionate Computer Science student with a keen interest in web development and software engineering.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="image/vishal.jpeg" alt="Vishal Kumar">
+                <p>I’m currently pursuing a diploma in Computer Science, where I’m developing my skills in programming and web development. I love solving problems and creating efficient solutions through code. My interests include exploring new technologies and continuously improving my coding skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>Project Title 1</h3>
+                    <p>This project involves building a responsive web application using HTML, CSS, and JavaScript. The focus was on creating an interactive user experience.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Project Title 2</h3>
+                    <p>This project is a Python-based tool that automates repetitive tasks, improving productivity and efficiency. It features a clean, user-friendly interface.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Project Title 3</h3>
+                    <p>An exploration of data analysis using Python and Pandas, this project visualizes trends and provides actionable insights based on data.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Programming Languages</h3>
+                    <p>C, Python, JavaScript, HTML, CSS</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, React, Bootstrap</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Tools & Technologies</h3>
+                    <p>Git, Visual Studio Code, GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <p>If you’d like to get in touch, feel free to reach out to me through any of the following platforms:</p>
+                <ul>
+                    <li>Email: <a href="mailto:vishalkumar@example.com">vishalkumar@example.com</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/vishalkumar" target="_blank">linkedin.com/in/vishalkumar</a></li>
+                    <li>GitHub: <a href="https://github.com/vishalkumar" target="_blank">github.com/vishalkumar</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vishal Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Move the JavaScript code to the end of the body -->
+    <script src="script.js"></script>
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
